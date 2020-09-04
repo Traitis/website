@@ -17,12 +17,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      -name: Deploy via SSH
+    - uses: actions/checkout@v1
+    - name: Deploy via SSH
       uses: appleboy/ssh-action@master
       with:
-        host: trait.is
-        username: ubuntu
-        key: ${{ secrets.SSH_KEY }}
-        script: |
-            cd /var/www && git pull && cd /var/www/traitis && pelican
+       host: trait.is
+       username: ubuntu
+       key: ${{ secrets.SSH_KEY }}
+       script: |
+          cd /var/www && git pull && cd /var/www/traitis && pelican
