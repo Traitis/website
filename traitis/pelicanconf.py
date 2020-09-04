@@ -21,6 +21,16 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 PLUGINS=['plugins.sitemap']  # , 'plugins.gzip_cache']
 
+# provided as examples, they make ‘clean’ urls. used by MENU_INTERNAL_PAGES.
+TAGS_URL           = 'tags'
+TAGS_SAVE_AS       = 'tags/index.html'
+AUTHORS_URL        = 'authors'
+AUTHORS_SAVE_AS    = 'authors/index.html'
+CATEGORIES_URL     = 'categories'
+CATEGORIES_SAVE_AS = 'categories/index.html'
+ARCHIVES_URL       = 'archives'
+ARCHIVES_SAVE_AS   = 'archives/index.html'
+
 # use those if you want pelican standard pages to appear in your menu
 MENU_INTERNAL_PAGES = (
     ('Tags', TAGS_URL, TAGS_SAVE_AS),
