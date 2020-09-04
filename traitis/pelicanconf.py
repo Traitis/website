@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'Protected Trait Data Trust'
 SITENAME = 'Traitis Data Trust'
 SITEURL = 'https://trait.is'
-THEME = "/var/www/traitis/themes/blue-penguin"
+THEME = "blue-penguin"
 
 PATH = 'content'
 
