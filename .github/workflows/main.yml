@@ -42,3 +42,4 @@ jobs:
           user: ubuntu
           commands: |
             git pull /var/www/traitis
+            pelican -s /var/www/traitis/pelicanconf.py
