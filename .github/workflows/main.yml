@@ -41,5 +41,4 @@ jobs:
           private_key: ${{ secrets.SSH_KEY }}
           user: ubuntu
           commands: |
-            git pull /var/www
-            pelican -s /var/www/traitis/pelicanconf.py
+            cd /var/www && git pull && pelican
