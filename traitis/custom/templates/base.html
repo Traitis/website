@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/basscss.css">
+  <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/main.css">
+</head>
+<body>
+  <div class="white image-start bg-black">
+   <div class="container">
+      <div class="clearfix mxn0">
+       <div class="col-10 sm-col-10 mx-auto px3 py4 mt1">
+            <h1 class="responsive-h1 name caps px3 py1">Traitis Data Trust</h1>
+            <h2 class="responsive-h2 name px3">Safely share your protective traits <br>to help us track your company's performance on equity.</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% block content %}
+{% endblock %}
+
+
+  <div class="footer-elem">
+    <footer>
+      <div class="center mt2">
+        <p>Copyright 2020 - Traitis</p>
+      </div>
+    </footer>
+  </div>
+
+</body>
+
+</html>
