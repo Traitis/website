@@ -1,4 +1,5 @@
 Title: The Traitis Data Trust
+Date: 2020-06-14
 
 We are building a data trust that will allow every employee to register their specific protected traits (e.g. gender, ethnicity, sexual orientation, religion etc). The data trustees will manage access to this data.
 

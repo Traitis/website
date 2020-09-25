@@ -1,4 +1,5 @@
 Title: What is a Data Trust?
+Date: 2020-06-14
 
 A data trust comes into existence when data or data rights are placed under the control of a board of trustees with a fiduciary responsibility to look after the interests of the beneficiaries of the trust. 
 

@@ -4,14 +4,16 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Protected Trait Data Trust'
 SITENAME = 'Traitis Data Trust'
-SITEURL = 'https://trait.is'
-THEME = "blue-penguin"
+# SITEURL = 'https://trait.is'
+THEME = 'custom'
 
 PATH = 'content'
 
 TIMEZONE = 'Europe/London'
 
 DEFAULT_LANG = 'en'
+
+DEFAULT_DATE = 'fs'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

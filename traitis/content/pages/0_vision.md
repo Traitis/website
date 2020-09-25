@@ -1,5 +1,6 @@
 Title: Why We Need A Data Trust For Protective Traits
 Color: red
+Date: 2020-06-14
 
 How do the companies we work for or put money into make their hiring and firing decisions? Who do they promote and who do they overlook? Do they discriminate against folks from specific religious, or ethnic groups, sexual orientations or gender? 
 
