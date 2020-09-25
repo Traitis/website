@@ -19,7 +19,14 @@ CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = True
 
-# Following items are often useful when publishing
+# not sure these are actually needed
+DEFAULT_LANG = 'en'
+ARCHIVES_SAVE_AS = ''
+AUTHOR_SAVE_AS = ''
+AUTHORS_SAVE_AS = ''
+CATEGORY_SAVE_AS = ''
+CATEGORIES_SAVE_AS = ''
+TAGS_SAVE_AS = ''
 
-#DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""
+# this one is def needed!
+THEME = 'custom'
